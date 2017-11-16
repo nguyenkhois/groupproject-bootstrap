@@ -1,0 +1,38 @@
+/* Test purpose */
+.test-background-color{background:#2b669a;}
+.test-background-color-2{background:#9d9d9d;}
+
+/* Custom widths */
+.container-full-width{margin: 0;padding: 0;width: 100%;}
+.full-width{width: 100%;}
+
+/* Custom spacings */
+.spacing-top-0{margin-top: 0;}
+.spacing-right-0{margin-right: 0;}
+.spacing-bottom-0{margin-bottom: 0;}
+.spacing-left-0{margin-left: 0;}
+
+.spacing-top-15{margin-top: 15px;}
+.spacing-right-15{margin-right: 15px;}
+.spacing-bottom-15{margin-bottom: 15px;}
+.spacing-left-15{margin-left: 15px;}
+
+.spacing-around-0{margin: 0;}
+.spacing-around-15{margin: 15px;}
+
+.spacing-in-0{padding: 0;}
+.spacing-in-top-15{padding-top: 15px;}
+
+/* Custom styles */
+.border-default{border: solid 1px #000000;}
+.background-default{background: #eee;}
+
+
+
+/* Custom components */
+.footer{width: 100%;padding: 30px;margin: 0;}
+.footer-default{
+    background-color: #f8f8f8;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+}
