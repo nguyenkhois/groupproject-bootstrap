@@ -1,8 +1,16 @@
 /* Test purpose */
-.test-background-color{background:#2b669a;}
+.test-background-color-1{background:#2b669a;}
 .test-background-color-2{background:#9d9d9d;}
 
+
+
 /* Custom widths */
+.container-fluid-custom {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .container-full-width{margin: 0;padding: 0;width: 100%;}
 .full-width{width: 100%;}
 
@@ -36,3 +44,15 @@
     border: 2px solid #e7e7e7;
     border-radius: 5px;
 }
+
+.box{width: 100%;padding: 15px;margin:0;position: relative;}
+.box-default{
+    background: #f7f7f7;
+    border: 2px solid #cbcbcb;
+    border-radius: 5px;
+}
+/* Clear Bootstrap style on these tags: p, h3 when we use this component */
+.box-content>h3, .box-content>p{
+    margin: 0;
+}
+
