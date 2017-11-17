@@ -48,7 +48,7 @@
 .box{width: 100%;padding: 15px;margin:0;position: relative;}
 .box-default{
     background: #f7f7f7;
-    border: 2px solid #cbcbcb;
+    border: 1px solid #cbcbcb;
     border-radius: 5px;
 }
 /* Clear Bootstrap style on these tags: p, h3 when we use this component */
