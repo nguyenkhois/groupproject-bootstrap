@@ -11,6 +11,11 @@
 * [Axure](https://www.axure.com/) (draw wireframe)
 * [Stretchboard](https://sketchboard.me/xALh5qwNWQtW#/) (team mode)
 
+## Themes
+* [Bootsnipp](https://bootsnipp.com/)
+* [Bootswatch](https://bootswatch.com/)
+* [Start Bootstrap](https://startbootstrap.com/template-categories/all/)
+
 ## Free pictures
 * [Pixabay](https://pixabay.com/)
 * Google keywords: "[gym wallpaper](https://www.google.se/search?q=gym+wallpaper)", "[crossfit wallpaper](https://www.google.se/search?q=crossfit+wallpaper)" or more
