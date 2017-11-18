@@ -1,5 +1,8 @@
 # Group project for Bootstrap course
 
+## Reports
+* [Group report and personal reports](https://docs.google.com/spreadsheets/d/1vRrVHtjF6zwYaHavZrL9bYMX17he00eHne5WFotHmKE/edit#gid=0) (Google Sheets)
+
 ## Tools
 * WebStorm
 * Plugin for WebStorm: [Bootstrap 3](https://plugins.jetbrains.com/plugin/7572-bootstrap-3)
