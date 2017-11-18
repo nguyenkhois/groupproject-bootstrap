@@ -1,0 +1,52 @@
+.row-m-t{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-text-middle {
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    background-color: rgba(255, 243, 221, 0.4);
+
+}
+
+.img-text-middle p{
+    font-size: 50px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(255, 243, 221, 0.4);
+
+}
+
+.services-img-link {
+    text-decoration: none;
+    color:white;
+}
+
+.services-img-link:hover {
+    text-decoration: none;
+    color: white;
+}
+.list-unstyled {
+    margin-top: 15px;
+}
+
+small {
+    margin-left: 8px;
+}
+
+.yourreview{
+    border-top: solid lightgray 1px;
+    padding-top: 15px;
+}
