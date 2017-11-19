@@ -24,6 +24,7 @@
 .spacing-right-15{margin-right: 15px;}
 .spacing-bottom-15{margin-bottom: 15px;}
 .spacing-left-15{margin-left: 15px;}
+.spacing-top-bottom-15{margin-top: 15px;margin-bottom: 15px;}
 
 .spacing-around-0{margin: 0;}
 .spacing-around-15{margin: 15px;}
@@ -52,7 +53,8 @@
     border-radius: 5px;
 }
 /* Clear Bootstrap style on these tags: p, h3 when we use this component */
-.box-content>h3, .box-content>p{
-    margin: 0;
-}
+.box-content>h3, .box-content>p{margin: 0;}
 
+/*--- Specific styles ---*/
+/* For Blog pages */
+.blog-tags>a{color: #337ab7;}
