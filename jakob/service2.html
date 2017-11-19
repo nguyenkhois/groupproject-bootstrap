@@ -17,17 +17,18 @@
 <ol class="breadcrumb">
     <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
     <li><a href="services.html">Services</a></li>
-    <li class="active"><a href="services2.html">Yoga</a></li>
+    <li class="active"><a href="service2.html">Yoga</a></li>
 </ol>
 
 <div class="container">
     <div class="row">
-        <div class="img-container">
+        <div class="img-container hidden-xs">
             <img class="img-responsive" src="images/yoga2.jpg" alt="yoga">
             <div class="img-text-middle">
                 <p class="lead">Yoga</p>
             </div>
         </div>
+        <h2 class="xs-serviceHeader visible-xs">Yoga</h2>
     </div>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum luctus semper. Mauris non
         lectus in odio ultricies convallis non in diam. Class aptent taciti sociosqu ad litora torquent per conubia
@@ -60,13 +61,11 @@
                     <label for="phone">Phone</label>
                     <input type="number" class="form-control" id="phone" placeholder="Your Phone number">
                 </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input">
-                        Check me out
-                    </label>
+                <div class="form-group">
+                    <label for="date">Time</label>
+                    <input type="date" class="form-control" id="date" placeholder="Time">
                 </div>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#myModal">Submit</button>
             </form>
         </div>
 
@@ -91,7 +90,7 @@
 
         <div class="tab-pane" id="reviews">
             <ul class="list-unstyled">
-                <li class="media">
+                <li class="media media-borderBottom">
                     <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
                     <div class="media-body">
                         <span class="glyphicon glyphicon-star"></span>
@@ -103,7 +102,7 @@
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                     </div>
                 </li>
-                <li class="media">
+                <li class="media media-borderBottom">
                     <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
                     <div class="media-body">
                         <span class="glyphicon glyphicon-star"></span>
@@ -115,7 +114,7 @@
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                     </div>
                 </li>
-                <li class="media">
+                <li class="media media-borderBottom">
                     <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
                     <div class="media-body">
                         <span class="glyphicon glyphicon-star"></span>
@@ -128,13 +127,15 @@
                     </div>
                 </li>
             </ul>
+
             <form class="yourreview">
                 <div class="form-group">
                     <label for="review">Your Review</label>
                     <textarea class="form-control" id="review" placeholder="Leave a Review"></textarea>
                 </div>
-                <button type="button" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-custom">Submit</button>
             </form>
+
         </div>
     </div>
 </div>

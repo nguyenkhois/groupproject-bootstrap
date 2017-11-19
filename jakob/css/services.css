@@ -3,6 +3,10 @@
     margin-bottom: 30px;
 }
 
+.spacing-bottom-30{
+    margin-bottom: 30px;
+}
+
 .img-container {
     position: relative;
     text-align: center;
@@ -13,20 +17,29 @@
     position: absolute;
     bottom: 45%;
     width: 100%;
-    background-color: rgba(255, 243, 221, 0.4);
+    background-color: rgba(200, 193, 193, 0.6);
 
+}
+
+.xs-serviceHeader{
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .img-text-middle p{
-    font-size: 50px;
+    font-size: 80px;
 }
 
-.bottom-left {
+.bottom-imgText{
     position: absolute;
     bottom: 0px;
     width: 100%;
-    background-color: rgba(255, 243, 221, 0.4);
+    background-color: rgba(200, 193, 193, 0.6);
+}
 
+.lead-onImg{
+    font-size: 50px;
 }
 
 .services-img-link {
@@ -38,6 +51,7 @@
     text-decoration: none;
     color: white;
 }
+
 .list-unstyled {
     margin-top: 15px;
 }
@@ -45,8 +59,15 @@
 small {
     margin-left: 8px;
 }
-
+.media-borderBottom{
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 15px;
+}
 .yourreview{
-    border-top: solid lightgray 1px;
     padding-top: 15px;
+}
+
+.btn-custom{
+    background-color: #2aabd2;
+    color: white;
 }
