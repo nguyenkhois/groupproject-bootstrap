@@ -31,11 +31,24 @@
     font-size: 80px;
 }
 
+.overallReview{
+    padding-bottom: 15px;
+    border-bottom: solid lightgray 1px;
+}
+
 .bottom-imgText{
     position: absolute;
     bottom: 0px;
     width: 100%;
     background-color: rgba(200, 193, 193, 0.6);
+}
+
+.box{width: 100%;padding: 15px;margin:0;position: relative;}
+.box-default{
+    background: #f7f7f7;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .lead-onImg{
@@ -56,6 +69,7 @@
     margin-top: 15px;
 }
 
+
 small {
     margin-left: 8px;
 }
@@ -67,7 +81,24 @@ small {
     padding-top: 15px;
 }
 
+.btn-customDefault{
+    background-color: #2aabd2;
+    color: white;
+}
+
+.btn-customDefault2{
+    background-color: #d2216a;
+    color: white;
+}
+
 .btn-custom{
     background-color: #2aabd2;
     color: white;
+}
+
+
+@media (max-width: 768px){
+    .btn-custom{
+        width: 100%;
+    }
 }
