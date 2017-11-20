@@ -21,6 +21,12 @@
 
 }
 
+.helpful{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: darkgrey;
+}
+
 .xs-serviceHeader{
     font-size: 80px;
     text-align: center;
