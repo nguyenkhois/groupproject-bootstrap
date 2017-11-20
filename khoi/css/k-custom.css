@@ -40,7 +40,7 @@
 .footer-default{background-color: #f8f8f8;border: 2px solid #e7e7e7;border-radius: 5px;}
 .box{width: 100%;padding: 15px;margin:0;position: relative;}
 .box-default{background: #f7f7f7;border: 1px solid #cbcbcb;border-radius: 5px;}
-
+.box-style-dashed:hover{color: #6495ed;border: 1px dashed #6495ed;cursor: pointer;}
 
 /* Clear Bootstrap style on these tags: p, h3 when we use this component */
 .box-content>h3, .box-content>p{margin: 0;}
@@ -54,3 +54,4 @@
 /* For Blog pages */
 .blog-tags>a{color: #337ab7;}
 .blog-comment-post>textarea{height: 100px;}
+.box-reply{width: 60%;padding: 15px;margin:0;position: relative;}
