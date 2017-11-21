@@ -24,6 +24,10 @@
     background-color: rgba(200, 193, 193, 0.6);
 }
 
+.img-text-middle p{
+    font-size: 80px;
+}
+
 .specificServiceText{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -40,10 +44,6 @@
     font-size: 80px;
     text-align: center;
     padding-bottom: 20px;
-}
-
-.img-text-middle p{
-    font-size: 80px;
 }
 
 .overallReview{
@@ -66,7 +66,8 @@
 }
 
 .thead-custom{
-    background-color: beige;
+    background-color: #384548;
+    color: white;
 }
 
 .box{width: 100%;padding: 15px;margin:0;position: relative;}
@@ -99,10 +100,10 @@
     margin-top: 15px;
 }
 
-
 small {
     margin-left: 8px;
 }
+
 .media-borderBottom{
     border-bottom: solid lightgray 1px;
     padding-bottom: 15px;
@@ -133,4 +134,16 @@ small {
         width: 100%;
         margin-bottom: 10px;
     }
+}
+
+@media (max-width: 488px) {
+
+    .img-text-middle {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+        background-color: rgba(200, 193, 193, 0.6);
+
+    }
+    
 }
