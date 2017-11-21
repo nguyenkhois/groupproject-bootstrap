@@ -18,9 +18,10 @@
 .glyphicon-log-in {
     padding-right: 4px;
 }
-.navbar-brand>p {
+.navbar-brand>a {
     color: #F3912C;
     display: inline;
+    text-decoration: none;
 }
 .pull-right>li>a {
     color: whitesmoke;
