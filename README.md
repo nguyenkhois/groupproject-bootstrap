@@ -11,7 +11,9 @@
 * [Axure](https://www.axure.com/) (draw wireframe)
 * [Stretchboard](https://sketchboard.me/xALh5qwNWQtW#/) (team mode)
 
-## Themes
+## Fonts and themes
+* [W3Schools - Bootstrap 3 Classes Reference](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
+* [Font Awesome](https://www.bootstrapcdn.com/fontawesome/)
 * [Bootsnipp](https://bootsnipp.com/)
 * [Bootswatch](https://bootswatch.com/)
 * [Start Bootstrap](https://startbootstrap.com/template-categories/all/)
