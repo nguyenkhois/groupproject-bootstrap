@@ -1,3 +1,7 @@
+#topheader {
+    background: linear-gradient(to right, rgb(15%, 15%, 15%), whitesmoke, rgb(15%, 15%, 15%));
+    background-size: cover;
+}
 .topheaderimage>img {
     margin: 5px 0;
 }
@@ -6,7 +10,10 @@
     padding-bottom: 10px;
 }
 .loginglyphs {
-    color: #3A3A3C;
+    color: black;
+}
+.loginglyphsxs {
+    color: whitesmoke;
 }
 .glyphicon-log-in {
     padding-right: 4px;
@@ -15,13 +22,13 @@
     color: #F3912C;
     display: inline;
 }
-.navbar-right>li>a {
-    color: #3A3A3C;
+.pull-right>li>a {
+    color: whitesmoke;
 }
 .login {
     margin-bottom: 5px;
 }
-footer>div>div>#footer>div>div>ul {
+footer>div>div>#footer>div>ul {
     display: flex;
     justify-content: center;
     font-size: 13px;
@@ -35,14 +42,14 @@ footer>div>div>#footer>div>div>ul {
     display: flex;
     justify-content: center;
 }
-footer>div>div>#footer>div>div>ul>li>a {
+footer>div>div>#footer>div>ul>li>a {
     padding: 0 0 5px 0;
     display: block;
 }
-footer>div>div>#footer>div>div>a {
+footer>div>div>#footer>div>a {
     color: #78828D
 }
-.social li {
+.social>li {
     background: none repeat scroll 0 0 #B5B5B5;
     border: 2px solid #B5B5B5;
     -webkit-border-radius: 50%;
@@ -60,21 +67,21 @@ footer>div>div>#footer>div>div>a {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
 }
-.social li:hover {
+.social>li:hover {
     transform: scale(1.15) rotate(360deg);
     -webkit-transform: scale(1.1) rotate(360deg);
     -moz-transform: scale(1.1) rotate(360deg);
     -ms-transform: scale(1.1) rotate(360deg);
     -o-transform: scale(1.1) rotate(360deg);
 }
-.social li a {
+.social>li>a {
     color: #EDEFF1;
 }
-.social li:hover {
+.social>li:hover {
     border: 2px solid whitesmoke;
     background: white;
 }
-.social li a i {
+.social>li>a>i {
     font-size: 16px;
     margin: 0 0 0 5px;
     color: #3A3A3C !important;
@@ -83,6 +90,27 @@ footer>div>div>#footer>div>div>a {
     padding: 0;
 }
 .navbar-inverse {
+    margin: 0;
+    border-radius: 0;
     background-image: none;
     background-color: #3A3A3C;
+}
+#carouselid {
+    margin: 10px 0;
+}
+body {
+    background-color: #CCCCCC;
+}
+.panel>.panel-heading {
+    border-radius: 0;
+    background-image: none;
+    background-color: #3A3A3C;
+    color: #CCCCCC;
+}
+.panel {
+    border: 1px #3A3A3C solid;
+    border-radius: 0;
+}
+[title~="xspic"] {
+    margin: 8px 0;
 }

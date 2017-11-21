@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/services.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Treatments</title>
+</head>
+<body>
+
+<ol class="breadcrumb">
+    <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
+    <li><a href="services.html">Services</a></li>
+    <li class="active">Yoga</li>
+</ol>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="img-container">
+            <img class="img-responsive" src="images/yoga2.jpg" alt="yoga">
+            <div class="img-text-middle">
+                <p class="lead">Yoga</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid col-sm-10 col-sm-offset-1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum luctus semper. Mauris non
+        lectus in odio ultricies convallis non in diam. Class aptent taciti sociosqu ad litora torquent per conubia
+        nostra, per inceptos himenaeos. Proin vitae dolor semper, eleifend libero sed, fermentum ante. Nam eu ante in
+        nisl faucibus ultrices. Donec eu leo sit amet nibh convallis consectetur. Duis tempus odio sed nulla faucibus
+        accumsan. Ut interdum congue cursus.
+    </p>
+    <div class="box box-default-noBorderSide">
+        <div class="row">
+            <div class="col-xs-12 col-lg-4">
+                <h3>Opening Hour's for the gym</h3>
+                <p>Monday: 7 - 22</p>
+                <p>Tuesday: 7 - 22</p>
+                <p>Wednesday: 7 - 22</p>
+                <p>Thursday: 7 - 22</p>
+                <p>Friday: 7 - 21</p>
+                <p>Saturday: 8 - 15</p>
+                <p>Sunday: 8 - 18</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#reserve" data-toggle="tab">Reserve Time</a></li>
+        <li><a href="#reviews" data-toggle="tab">Ratings</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="reserve">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                           placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="adress">Adress</label>
+                    <input type="text" class="form-control" id="adress" placeholder="Your Adress">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                           placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" class="form-control" id="phone" placeholder="Your Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="date">Time</label>
+                    <select name="time" class="form-control" id="date">
+                        <option value="monday">Monday 17-18</option>
+                        <option value="wednesday">Wednesday 19-20</option>
+                        <option value="friday">Friday 17-18</option>
+                        <option value="saturday">Saturday 10-11</option>
+                        <option value="sunday">Sunday 10-11</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#myModal">Submit</button>
+            </form>
+        </div>
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Are You Sure?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to reserv time</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-customDefault">Confirm Reservation</button>
+                        <button type="button" class="btn btn-customDefault2" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="reviews">
+            <div class="media-body media-borderBottom">
+                <h3>Overall Ratings</h3>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+                <p>3 Ratings</p>
+            </div>
+            <ul class="list-unstyled">
+                <li class="media media-borderBottom">
+                    <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <h5>Review 1<small>Posted on Friday November 17, 2017</small></h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media media-borderBottom">
+                    <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <h5>Review 2<small>Posted on Friday November 17, 2017</small></h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+                <li class="media media-borderBottom">
+                    <img src="http://placeskull.com/50/50" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <h5>Review 3<small>Posted on Friday November 17, 2017</small></h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </li>
+            </ul>
+            <h3>Your Rating</h3>
+            <span class="ratingStar glyphicon glyphicon-star-empty"></span>
+            <span class="ratingStar glyphicon glyphicon-star-empty"></span>
+            <span class="ratingStar glyphicon glyphicon-star-empty"></span>
+            <span class="ratingStar glyphicon glyphicon-star-empty"></span>
+            <span class="ratingStar glyphicon glyphicon-star-empty"></span>
+            <form class="yourreview">
+                <div class="form-group">
+                    <label for="review">Your Comment</label>
+                    <textarea class="form-control" id="review" placeholder="Write Here"></textarea>
+                </div>
+                <button type="button" class="btn btn-custom btn-xs-wide">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

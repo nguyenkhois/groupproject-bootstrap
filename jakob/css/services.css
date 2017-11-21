@@ -7,6 +7,10 @@
     margin-bottom: 30px;
 }
 
+.spacing-top-30{
+    margin-top: 15px;
+}
+
 .img-container {
     position: relative;
     text-align: center;
@@ -19,6 +23,12 @@
     width: 100%;
     background-color: rgba(200, 193, 193, 0.6);
 
+}
+
+.specificServiceText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .helpful{
@@ -49,11 +59,27 @@
     background-color: rgba(200, 193, 193, 0.6);
 }
 
+.schemeHeader{
+    color: darkgrey;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #cbcbcb;
+}
+
+.thead-custom{
+    background-color: beige;
+}
+
 .box{width: 100%;padding: 15px;margin:0;position: relative;}
 .box-default{
-    background: #f7f7f7;
     border: 1px solid #cbcbcb;
-    border-radius: 5px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.box-default-noBorderSide{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
     margin-bottom: 15px;
 }
 
