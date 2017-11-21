@@ -49,7 +49,7 @@
 /* Override Bootstrap classes and components*/
 .btn-primary{background:#D7EAF9;color: #2b669a;}
 
-.navbar-default{
+/*.navbar-default{
     background: #3D3C3F;
 }
 .navbar-default .navbar-nav > li > a {
@@ -59,7 +59,7 @@
 .navbar-default .navbar-nav > li > a:focus {
     color: #e7e7e7;
     background-color: transparent;
-}
+}*/
 
 
 
@@ -72,6 +72,7 @@ main{background: #ffffff;}
 .blog-comment-post>textarea{height: 100px;}
 
 /* Definitions for footer */
+/*
 footer {
     display: flex;
     flex-direction: column;
@@ -89,4 +90,4 @@ footer img{width: 40px;transition: width 0.4s;}
 footer img:hover{width: 50px;}
 
 #tb-footer-social-media{margin: auto;padding: 0;border-collapse: collapse;}
-#tb-footer-social-media td{width: 51px;height: 55px;padding: 0;}
+#tb-footer-social-media td{width: 51px;height: 55px;padding: 0;}*/
