@@ -2,6 +2,10 @@
     background: linear-gradient(to right, rgb(15%, 15%, 15%), whitesmoke, rgb(15%, 15%, 15%));
     background-size: cover;
 }
+.topheaderimage {
+    display: flex;
+    justify-content: center;
+}
 .topheaderimage>img {
     margin: 5px 0;
 }
@@ -29,7 +33,7 @@
 .login {
     margin-bottom: 5px;
 }
-footer>div>div>#footer>div>ul {
+footer>.nav>.container-fluid>#footer>.row>.social {
     display: flex;
     justify-content: center;
     font-size: 13px;
@@ -39,15 +43,10 @@ footer>div>div>#footer>div>ul {
     margin-top: 15px;
     color: #7F8C8D;
 }
-.topheaderimage {
-    display: flex;
-    justify-content: center;
-}
-footer>div>div>#footer>div>ul>li>a {
+
+footer>.nav>.container-fluid>#footer>.row>.social>li>a {
     padding: 0 0 5px 0;
     display: block;
-}
-footer>div>div>#footer>div>a {
     color: #78828D
 }
 .social>li {
@@ -87,6 +86,7 @@ footer>div>div>#footer>div>a {
     margin: 0 0 0 5px;
     color: #3A3A3C !important;
 }
+
 .removepadding {
     padding: 0;
 }
