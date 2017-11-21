@@ -49,8 +49,41 @@
 /* Override Bootstrap classes and components*/
 .btn-primary{background:#D7EAF9;color: #2b669a;}
 
+.navbar-default{
+    background: #3D3C3F;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e7e7e7;
+    background-color: transparent;
+}
+
+
 
 /*--- Specific styles ---*/
 /* For Blog pages */
 .blog-tags>a{color: #337ab7;}
 .blog-comment-post>textarea{height: 100px;}
+
+/* Definitions for footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 150px;
+    width: 100%;
+    background: #F1F1F1;
+    color: #5E5E5E;
+}
+footer p{text-align: center;margin: 0;}
+
+footer div{margin: auto;}
+footer img{width: 40px;transition: width 0.4s;}
+footer img:hover{width: 50px;}
+
+#tb-footer-social-media{margin: auto;padding: 0;border-collapse: collapse;}
+#tb-footer-social-media td{width: 51px;height: 55px;padding: 0;}
