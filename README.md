@@ -9,7 +9,7 @@
 * [GitHub](https://github.com/nguyenkhois/groupproject-bootstrap) (private mode)
 * [GitHub Pages](https://nguyenkhois.github.io/groupproject-bootstrap/)
 * [Axure](https://www.axure.com/) (draw wireframe)
-* [Stretchboard](https://sketchboard.me/xALh5qwNWQtW#/) (team mode)
+* [Stretchboard](https://sketchboard.me/xALh5qwNWQtW#/) (group plan and common rules - team mode)
 
 ## Fonts and themes
 * [W3Schools - Bootstrap 3 Classes Reference](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
