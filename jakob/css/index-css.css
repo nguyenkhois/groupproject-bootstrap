@@ -2,10 +2,6 @@
     background: linear-gradient(to right, rgb(15%, 15%, 15%), whitesmoke, rgb(15%, 15%, 15%));
     background-size: cover;
 }
-.topheaderimage {
-    display: flex;
-    justify-content: center;
-}
 .topheaderimage>img {
     margin: 5px 0;
 }
@@ -33,7 +29,7 @@
 .login {
     margin-bottom: 5px;
 }
-footer>.nav>.container-fluid>#footer>.row>.social {
+footer>div>div>#footer>div>ul {
     display: flex;
     justify-content: center;
     font-size: 13px;
@@ -43,10 +39,15 @@ footer>.nav>.container-fluid>#footer>.row>.social {
     margin-top: 15px;
     color: #7F8C8D;
 }
-
-footer>.nav>.container-fluid>#footer>.row>.social>li>a {
+.topheaderimage {
+    display: flex;
+    justify-content: center;
+}
+footer>div>div>#footer>div>ul>li>a {
     padding: 0 0 5px 0;
     display: block;
+}
+footer>div>div>#footer>div>a {
     color: #78828D
 }
 .social>li {
@@ -86,7 +87,6 @@ footer>.nav>.container-fluid>#footer>.row>.social>li>a {
     margin: 0 0 0 5px;
     color: #3A3A3C !important;
 }
-
 .removepadding {
     padding: 0;
 }
@@ -100,7 +100,7 @@ footer>.nav>.container-fluid>#footer>.row>.social>li>a {
     margin: 10px 0;
 }
 body {
-    background-color: #CCCCCC;
+    background-color: white;
 }
 .panel>.panel-heading {
     border-radius: 0;
