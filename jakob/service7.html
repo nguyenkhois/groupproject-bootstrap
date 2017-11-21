@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/index-css.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,46 +14,163 @@
     <title>Treatments</title>
 </head>
 <body>
-
-<ol class="breadcrumb">
-    <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
-    <li><a href="services.html">Services</a></li>
-    <li class="active">Gym</li>
-</ol>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="img-container">
-            <img class="img-responsive" src="images/gym.jpg" alt="gym">
-            <div class="img-text-middle">
-                <p class="lead">Gym</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid col-sm-10 col-sm-offset-1">
-    <p class="specificServiceText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum luctus semper. Mauris non
-        lectus in odio ultricies convallis non in diam. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Proin vitae dolor semper, eleifend libero sed, fermentum ante. Nam eu ante in
-        nisl faucibus ultrices. Donec eu leo sit amet nibh convallis consectetur. Duis tempus odio sed nulla faucibus
-        accumsan. Ut interdum congue cursus.
-    </p>
-    <div class="box box-default-noBorderSide">
+<div id="topheader">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-lg-4">
-                <h3>Opening Hour's for the gym</h3>
-                <p>Monday: 7 - 22</p>
-                <p>Tuesday: 7 - 22</p>
-                <p>Wednesday: 7 - 22</p>
-                <p>Thursday: 7 - 22</p>
-                <p>Friday: 7 - 21</p>
-                <p>Saturday: 8 - 15</p>
-                <p>Sunday: 8 - 18</p>
+            <div class="topheaderimage">
+                <img class="img-responsive" src="images/Gym-Vector.png" alt="vector-gym">
             </div>
+        </div>
+        <div class="row hidden-xs">
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-log-in loginglyphs">
+                        </span>Login <span class="caret loginglyphs"></span></a>
+                    <div class="dropdown-menu">
+                        <form class="form-horizontal">
+                            <input id="username" class="form-control login" type="text" name="username"
+                                   placeholder="Username.."/>
+                            <input id="password" class="form-control login" type="password" name="password"
+                                   placeholder="Password.."/>
+                            <input class="btn btn-primary" type="submit" name="submit"/>
+                        </form>
+                    </div>
+                </li>
+                <li><a href="#"><span class="glyphicon glyphicon-user loginglyphs"></span>Sign Up</a></li>
+            </ul>
         </div>
     </div>
 </div>
+<nav class="nav navbar navbar-inverse">
+    <div class="navbar-header">
+        <div class="navbar-brand">
+            <a href="index.html">EC-Gym</a>
+        </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="collapsed-nav">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Our Workouts<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="services.html">All Workouts</a></li>
+                    <li class="divider"></li>
+                    <li><a href="service1.html">Indoor Walking</a></li>
+                    <li><a href="service2.html">Yoga</a></li>
+                    <li><a href="service3.html">Group Workout</a></li>
+                    <li><a href="service4.html">Body Pump</a></li>
+                    <li><a href="service5.html">Spinning</a></li>
+                    <li><a href="service6.html">Zumba</a></li>
+                    <li><a href="service7.html">Gym</a></li>
+                </ul>
+            </li>
+            <li><a href="photos.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="visible-xs"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right hidden-xs">
+            <li><a href="#">F.A.Q</a></li>
+        </ul>
+        <hr class="visible-xs">
+        <ul class="nav navbar-nav navbar-right visible-xs">
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-log-in loginglyphsxs"></span>Login
+                    <span class="caret loginglyphsxs"></span>
+                </a>
+                <div class="dropdown-menu">
+                    <form class="form-horizontal">
+                        <input id="usernamexs" class="form-control login" type="text" name="username"
+                               placeholder="Username.."/>
+                        <input id="passwordxs" class="form-control login" type="password" name="password"
+                               placeholder="Password.."/>
+                        <input class="btn btn-primary" type="submit" name="submit"/>
+                    </form>
+                </div>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-user loginglyphsxs"></span>Sign Up</a></li>
+        </ul>
+        <div class="col-sm-3 col-md-3 pull-right removepadding">
+            <form class="navbar-form pull-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-btn">
+                        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<main>
+    <ol class="breadcrumb">
+        <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="active">Gym</li>
+    </ol>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="img-container">
+                <img class="img-responsive" src="images/gym.jpg" alt="gym">
+                <div class="img-text-middle">
+                    <p class="lead">Gym</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid col-sm-10 col-sm-offset-1">
+        <p class="specificServiceText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum
+            luctus semper. Mauris non
+            lectus in odio ultricies convallis non in diam. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Proin vitae dolor semper, eleifend libero sed, fermentum ante. Nam eu ante
+            in
+            nisl faucibus ultrices. Donec eu leo sit amet nibh convallis consectetur. Duis tempus odio sed nulla
+            faucibus
+            accumsan. Ut interdum congue cursus.
+        </p>
+        <div class="box box-default-noBorderSide">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4">
+                    <h3>Opening Hour's for the gym</h3>
+                    <p>Monday: 7 - 22</p>
+                    <p>Tuesday: 7 - 22</p>
+                    <p>Wednesday: 7 - 22</p>
+                    <p>Thursday: 7 - 22</p>
+                    <p>Friday: 7 - 21</p>
+                    <p>Saturday: 8 - 15</p>
+                    <p>Sunday: 8 - 18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
+<footer>
+    <div class="nav navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="footer" id="footer">
+                <div class="row">
+                    <ul class="social">
+                        <li><a target="_blank" href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://google.com"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a target="_blank" href="https://pinterest"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a target="_blank" href="https://youtube.com"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
