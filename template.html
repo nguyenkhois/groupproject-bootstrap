@@ -12,9 +12,11 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index-css.css">
-    <title>Home</title>
+    <title></title>
 </head>
+
 <body>
+
 <div id="topheader">
     <div class="container-fluid">
         <div class="row">
@@ -22,6 +24,8 @@
                 <img class="img-responsive" src="images/Gym-Vector.png" alt="vector-gym">
             </div>
         </div>
+
+        <!-- First login form -->
         <div class="row hidden-xs">
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown">
@@ -32,15 +36,18 @@
                         <form class="form-horizontal">
                             <input id="username" class="form-control login" type="text" name="username" placeholder="Username.." />
                             <input id="password" class="form-control login" type="password" name="password" placeholder="Password.."/>
-                            <input class="btn btn-primary" type="submit" name="submit"/>
+                            <!--<input class="btn btn-primary" type="submit" name="submit"/>-->
+                            <button class="btn btn-success pull-right">Login</button>
                         </form>
                     </div>
                 </li>
                 <li><a href="#"><span class="glyphicon glyphicon-user loginglyphs"></span>Sign Up</a></li>
             </ul>
         </div>
+
     </div>
 </div>
+
 <nav class="nav navbar navbar-inverse">
     <div class="navbar-header">
         <div class="navbar-brand">
@@ -79,6 +86,8 @@
             <li><a href="#">F.A.Q</a></li>
         </ul>
         <hr class="visible-xs">
+
+        <!-- Second login form -->
         <ul class="nav navbar-nav navbar-right visible-xs">
             <li class="dropdown">
                 <a class="dropdown-toggle" href="#" data-toggle="dropdown">
@@ -89,12 +98,14 @@
                     <form class="form-horizontal">
                         <input id="usernamexs" class="form-control login" type="text" name="username" placeholder="Username.." />
                         <input id="passwordxs" class="form-control login" type="password" name="password" placeholder="Password.."/>
-                        <input class="btn btn-primary" type="submit" name="submit"/>
+                        <!--<input class="btn btn-primary" type="submit" name="submit"/>-->
+                        <button class="btn btn-success">Login</button>
                     </form>
                 </div>
             </li>
             <li><a href="#"><span class="glyphicon glyphicon-user loginglyphsxs"></span>Sign Up</a></li>
         </ul>
+
         <div class="col-sm-3 col-md-3 pull-right removepadding">
             <form class="navbar-form pull-right" role="search">
                 <div class="input-group">
@@ -107,6 +118,7 @@
         </div>
     </div>
 </nav>
+
 
 <main>
     <!-- Main contents -->
@@ -132,3 +144,6 @@
 </footer>
 </body>
 </html>
+
+
+
