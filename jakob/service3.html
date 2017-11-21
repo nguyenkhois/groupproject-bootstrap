@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/index-css.css">
     <link rel="stylesheet" href="css/services.css">
     <title>Group Training</title>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <div id="topheader">
@@ -32,10 +31,8 @@
                         </span>Login <span class="caret loginglyphs"></span></a>
                     <div class="dropdown-menu">
                         <form class="form-horizontal">
-                            <input id="username" class="form-control login" type="text" name="username"
-                                   placeholder="Username.."/>
-                            <input id="password" class="form-control login" type="password" name="password"
-                                   placeholder="Password.."/>
+                            <input id="username" class="form-control login" type="text" name="username" placeholder="Username.." />
+                            <input id="password" class="form-control login" type="password" name="password" placeholder="Password.."/>
                             <input class="btn btn-primary" type="submit" name="submit"/>
                         </form>
                     </div>
@@ -58,7 +55,7 @@
     </div>
     <div class="collapse navbar-collapse" id="collapsed-nav">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="dropdown">
                 <a href="#" data-toggle="dropdown">Our Workouts<span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -66,7 +63,7 @@
                     <li class="divider"></li>
                     <li><a href="service1.html">Indoor Walking</a></li>
                     <li><a href="service2.html">Yoga</a></li>
-                    <li><a href="service3.html">Group Workout</a></li>
+                    <li class="active"><a href="service3.html">Group Workout</a></li>
                     <li><a href="service4.html">Body Pump</a></li>
                     <li><a href="service5.html">Spinning</a></li>
                     <li><a href="service6.html">Zumba</a></li>
@@ -75,11 +72,12 @@
             </li>
             <li><a href="photos.html">Gallery</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="visible-xs"><a href="contact.html">Contact</a></li>
+            <li><a href="photos.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <ul class="nav navbar-nav pull-right hidden-xs">
+        <hr class="visible-xs">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a data-target="#searchModal" href="#" data-toggle="modal">Search <span class="glyphicon glyphicon-search"></span></a></li>
             <li><a href="#">F.A.Q</a></li>
         </ul>
         <hr class="visible-xs">
@@ -91,33 +89,43 @@
                 </a>
                 <div class="dropdown-menu">
                     <form class="form-horizontal">
-                        <input id="usernamexs" class="form-control login" type="text" name="username"
-                               placeholder="Username.."/>
-                        <input id="passwordxs" class="form-control login" type="password" name="password"
-                               placeholder="Password.."/>
+                        <input id="usernamexs" class="form-control login" type="text" name="username" placeholder="Username.." />
+                        <input id="passwordxs" class="form-control login" type="password" name="password" placeholder="Password.."/>
                         <input class="btn btn-primary" type="submit" name="submit"/>
                     </form>
                 </div>
             </li>
-            <li><a href="#"><span class="glyphicon glyphicon-user loginglyphsxs"></span>Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user loginglyphsxs"></span>Sign Up</a>
+            <li></li>
         </ul>
-        <div class="col-sm-3 col-md-3 pull-right removepadding">
-            <form class="navbar-form pull-right" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search...">
-                    <div class="input-group-btn">
-                        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i>
-                        </button>
+        <div id="searchModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <form>
+                            <div class="form-group">
+                                <label for="modalsearchbox">Look and you shall find!</label>
+                                <div class="input-group">
+                                    <input class="form-control" id="modalsearchbox" title="search" type="search" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </nav>
 <main>
     <ol class="breadcrumb">
         <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="services.html">Workouts</a></li>
         <li class="active">Group</li>
     </ol>
 
