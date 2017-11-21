@@ -1,0 +1,92 @@
+/* Using for modules: Contact, About, Photo gallery, Blog */
+
+/* Test purpose */
+.test-background-color-1{background:#2b669a;}
+.test-background-color-2{background:#9d9d9d;}
+
+
+/* Custom widths */
+.container-fluid-custom {padding-right: 0px;padding-left: 0px;margin-right: auto;margin-left: auto;}
+.container-full-width{margin: 0;padding: 0;width: 100%;}
+.full-width{width: 100%;}
+
+
+/* Custom spacings */
+.spacing-top-0{margin-top: 0;}
+.spacing-right-0{margin-right: 0;}
+.spacing-bottom-0{margin-bottom: 0;}
+.spacing-left-0{margin-left: 0;}
+
+.spacing-top-15{margin-top: 15px;}
+.spacing-right-15{margin-right: 15px;}
+.spacing-bottom-15{margin-bottom: 15px;}
+.spacing-left-15{margin-left: 15px;}
+.spacing-top-bottom-15{margin-top: 15px;margin-bottom: 15px;}
+
+.spacing-around-0{margin: 0;}
+.spacing-around-15{margin: 15px;}
+
+.spacing-in-0{padding: 0;}
+.spacing-in-top-15{padding-top: 15px;}
+
+
+/* Custom styles */
+.border-default{border: solid 1px #000000;}
+.background-default{background: #eee;}
+
+
+/* Custom components */
+.footer{width: 100%;padding: 30px;margin: 0;}
+.footer-default{background-color: #f8f8f8;border: 2px solid #e7e7e7;border-radius: 5px;}
+.box{width: 100%;padding: 15px;margin:0;position: relative;}
+.box-default{background: #f7f7f7;border: 1px solid #cbcbcb;border-radius: 5px;}
+.box-style-dashed:hover{color: #6495ed;border: 1px dashed #6495ed;cursor: pointer;}
+
+/* Clear Bootstrap style on these tags: p, h3 when we use this component */
+.box-content>h3, .box-content>p{margin: 0;}
+
+
+/* Override Bootstrap classes and components*/
+.btn-primary{background:#D7EAF9;color: #2b669a;}
+
+.navbar-default{
+    background: #3D3C3F;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e7e7e7;
+    background-color: transparent;
+}
+
+
+
+/*--- Specific styles ---*/
+/* For all pages */
+main{background: #ffffff;}
+
+/* For Blog pages */
+.blog-tags>a{color: #337ab7;}
+.blog-comment-post>textarea{height: 100px;}
+
+/* Definitions for footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 150px;
+    width: 100%;
+    background: #F1F1F1;
+    color: #5E5E5E;
+}
+footer p{text-align: center;margin: 0;}
+
+footer div{margin: auto;}
+footer img{width: 40px;transition: width 0.4s;}
+footer img:hover{width: 50px;}
+
+#tb-footer-social-media{margin: auto;padding: 0;border-collapse: collapse;}
+#tb-footer-social-media td{width: 51px;height: 55px;padding: 0;}
