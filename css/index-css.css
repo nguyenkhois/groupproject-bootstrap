@@ -137,4 +137,7 @@ footer>.nav>.container-fluid>#footer>.row>.social>li>a {
     padding: 0;
 }
 
-
+/* Align center carousel when website shows on large screen */
+.carousel-inner img {
+    margin: auto;
+}
