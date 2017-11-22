@@ -1,3 +1,5 @@
+/*----------Top-Header-Css----------*/
+
 #topheader {
     background: linear-gradient(to right, rgb(15%, 15%, 15%), whitesmoke, rgb(15%, 15%, 15%));
     background-size: cover;
@@ -9,23 +11,8 @@
 .topheaderimage>img {
     margin: 5px 0;
 }
-.dropdown-menu {
-    padding: 15px;
-    padding-bottom: 10px;
-}
-.loginglyphs {
-    color: black;
-}
-.loginglyphsxs {
-    color: whitesmoke;
-}
 .glyphicon-log-in {
     padding-right: 4px;
-}
-.navbar-brand>a {
-    color: #F3912C;
-    display: inline;
-    text-decoration: none;
 }
 .pull-right>li>a {
     color: whitesmoke;
@@ -36,6 +23,53 @@
 .login {
     margin-bottom: 5px;
 }
+
+
+/*----------Navbar-Css----------*/
+
+.navbar-inverse {
+    margin: 0;
+    border-radius: 0;
+    background-image: none;
+    background-color: #3A3A3C;
+}
+.dropdown-menu {
+    padding: 15px;
+    padding-bottom: 10px;
+}
+.navbar-brand>a {
+    color: #F3912C;
+    display: inline;
+    text-decoration: none;
+}
+
+
+/*----------Main-Content-Css----------*/
+
+body {
+    background-color: #CCCCCC;
+}
+[title~="xspic"] {
+    margin: 8px 0;
+}
+.panel {
+    border: 1px #3A3A3C solid;
+    border-radius: 0;
+}
+#carouselid {
+    margin: 10px 0;
+}
+
+.panel>.panel-heading {
+    border-radius: 0;
+    background-image: none;
+    background-color: #3A3A3C;
+    color: #CCCCCC;
+}
+
+
+/*----------Footer-Css----------*/
+
 footer>.nav>.container-fluid>#footer>.row>.social {
     display: flex;
     justify-content: center;
@@ -90,31 +124,17 @@ footer>.nav>.container-fluid>#footer>.row>.social>li>a {
     color: #3A3A3C !important;
 }
 
+
+/*----------Other-Css----------*/
+
+.loginglyphs {
+    color: black;
+}
+.loginglyphsxs {
+    color: whitesmoke;
+}
 .removepadding {
     padding: 0;
 }
-.navbar-inverse {
-    margin: 0;
-    border-radius: 0;
-    background-image: none;
-    background-color: #3A3A3C;
-}
-#carouselid {
-    margin: 10px 0;
-}
-body {
-    background-color: #CCCCCC;
-}
-.panel>.panel-heading {
-    border-radius: 0;
-    background-image: none;
-    background-color: #3A3A3C;
-    color: #CCCCCC;
-}
-.panel {
-    border: 1px #3A3A3C solid;
-    border-radius: 0;
-}
-[title~="xspic"] {
-    margin: 8px 0;
-}
+
+
