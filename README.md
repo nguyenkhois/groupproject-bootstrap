@@ -13,7 +13,8 @@
 
 ## Fonts and themes
 * [W3Schools - Bootstrap 3 Classes Reference](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)
-* [Font Awesome](https://www.bootstrapcdn.com/fontawesome/)
+* [Font Awesome homepage](http://fontawesome.io/) or [Font Awesome on BootstrapCDN](https://www.bootstrapcdn.com/fontawesome/)
+* [BootstrapCDN](https://www.bootstrapcdn.com/)
 * [Bootsnipp](https://bootsnipp.com/)
 * [Bootswatch](https://bootswatch.com/)
 * [Start Bootstrap](https://startbootstrap.com/template-categories/all/)
