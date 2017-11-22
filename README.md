@@ -1,13 +1,13 @@
 # Group project for Bootstrap course
 
-## Reports
+## Reports and project
+* [GitHub](https://github.com/nguyenkhois/groupproject-bootstrap)
+* [GitHub Pages](https://nguyenkhois.github.io/groupproject-bootstrap/)
 * [Group report and personal reports](https://docs.google.com/spreadsheets/d/1vRrVHtjF6zwYaHavZrL9bYMX17he00eHne5WFotHmKE/edit#gid=0) (Google Sheets)
 
 ## Tools
 * WebStorm
 * Plugin for WebStorm: [Bootstrap 3](https://plugins.jetbrains.com/plugin/7572-bootstrap-3)
-* [GitHub](https://github.com/nguyenkhois/groupproject-bootstrap) (private mode)
-* [GitHub Pages](https://nguyenkhois.github.io/groupproject-bootstrap/)
 * [Axure](https://www.axure.com/) (draw wireframe)
 * [Stretchboard](https://sketchboard.me/xALh5qwNWQtW#/) (group plan and common rules - team mode)
 
@@ -29,3 +29,6 @@
 * [Sveriges Skönhetscenter](http://www.sverigesskonhetscenter.se/behandlingar.php/)
 * [Crossfit Ängelholm](http://www.crossfitangelholm.se/)
 * [Crossfit Lund](http://crossfitlund.com/)
+
+## Notes
+* All resources (images, text,...) in this project used only for study
