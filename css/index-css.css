@@ -30,6 +30,9 @@
 .pull-right>li>a {
     color: whitesmoke;
 }
+.pull-right>li>a:hover {
+    color: black !important;
+}
 .login {
     margin-bottom: 5px;
 }
